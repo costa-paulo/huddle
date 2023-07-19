@@ -1,0 +1,105 @@
+@media (max-width: 1150px){
+    .main .container .promo .image img{
+        max-width: 450px;
+        height: auto;
+    }
+
+    .main .container .promo .info{
+        padding: 20px 0 0 40px;
+        max-width: 400px;
+    }
+
+    .main .container .promo .info h2{
+        font-size: 25px;
+    }
+
+    .main .container .promo .info p{
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .main .container .promo .info a{
+        width: 120px;
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    .main .container .social a i{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 950px){
+    .header img{
+        max-width: 150px;
+        margin: 30px 0 0 40px;
+    }
+    
+    .main .container .promo .image img{
+        max-width: 350px;
+        height: auto;
+    }
+
+    .main .container .promo .info{
+        padding: 10px 0 0 25px;
+        max-width: 350px;
+    }
+
+    .main .container .promo .info h2{
+        font-size: 20px;
+    }
+    
+    .main .container .promo .info p{
+        font-size: 12px;
+    }
+
+    .main .container .promo .info a{
+        width: 100px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 750px){
+    body{
+        background: var(--violet) url(../images/bg-mobile.svg) center center no-repeat;
+        background-size: cover;
+    }
+
+    .main .container{
+        margin-top: 50px;
+    }
+    .main .container .promo{
+        flex-direction: column;
+    }
+
+    .main .container .promo .image{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .container .promo .image img{
+        max-width: 250px;
+    }
+
+    .main .container .promo .info{
+        padding: 30px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .container .promo .info p{
+        text-align: center;
+    }
+
+    .main .container .promo .info a{
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .main .container .social{
+        justify-content: center;
+    }
+}

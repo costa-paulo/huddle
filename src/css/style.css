@@ -1,0 +1,91 @@
+body{
+    background: var(--violet) url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.header{
+    min-height: 15vh;
+}
+
+.header img{
+    max-width: 210px;
+    margin: 30px 0 0 70px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.main .container .promo{
+    display: flex;
+} 
+
+.main .container .promo .image img{
+    max-width: 600px;
+    height: auto;
+}
+
+.main .container .promo .info{
+    padding: 20px 0 0 40px;
+    max-width: 450px;
+}
+
+.main .container .promo .info h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.main .container .promo .info p{
+    font-family: 'Opens Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.main .container .promo .info a{
+    display: block;
+    width: 150px;
+    margin-top: 30px;
+    padding: 10px 0;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Opens Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--violet);
+    box-shadow: 0 2px 10px #000;
+    transition: 0.3s;
+}
+
+.main .container .promo .info a:hover{
+    color: #fff;
+    background-color: var(--magenta);
+}
+
+.main .container .social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main .container .social a{
+    margin: 12px;   
+}
+
+.main .container .social a i{
+    color: #fff;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.main .container .social a i:hover{
+    color: var(--magenta);
+}
